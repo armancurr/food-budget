@@ -11,6 +11,7 @@ export function BudgetSettings({ budget, onChange }: { budget: number; onChange:
 
   return (
     <form
+      vare
       className="grid gap-2"
       onSubmit={(e) => {
         e.preventDefault()

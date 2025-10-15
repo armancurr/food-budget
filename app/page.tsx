@@ -119,7 +119,7 @@ export default function HomePage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-8 space-y-6">
       <section className="grid gap-6">
-        <Card className="shadow-sm">
+        <Card>
           <CardHeader>
             <CardTitle className="text-base">Monthly Budget</CardTitle>
           </CardHeader>
@@ -176,7 +176,7 @@ export default function HomePage() {
         />
 
         {showMeals && (
-          <Card className="shadow-sm">
+          <Card>
             <CardHeader>
               <CardTitle className="text-base">Manage Meals</CardTitle>
             </CardHeader>
